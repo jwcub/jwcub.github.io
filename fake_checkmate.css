@@ -21,7 +21,7 @@
         line-height: 1.5;
         color: #212529;
         text-align: left;
-        background-color: #fff;
+        background-color: #000000;
   }
   strong {
     color: pink;
@@ -135,7 +135,6 @@
     height: 100%;
     width: 100%;
     background: var(--gray-dark);
-    background-image: url("/img/bg-pattern.png");
     color: white;
     text-align: center;
     z-index: 20;
@@ -190,6 +189,12 @@
     color: white;
     float: right;
     margin-bottom: 0px;
+  }
+  #options {
+    width: 100%;
+    text-align: left;
+    color: white;
+    float: left;
   }
   #info {
     color: aliceblue;
@@ -308,37 +313,22 @@
     color: white;
   }
   .crown {
-    background-image: url("/img/crown.png") !important;
+    background-image: url("img/crown.png") !important;
   }
   .city {
-    background-image: url("/img/city.png") !important;
+    background-image: url("img/city.png") !important;
   }
   .mountain {
-    background-image: url("/img/mountain.png") !important;
+    background-image: url("img/mountain.png") !important;
     background-color: gray !important;
   }
   .empty-city {
-    background-image: url("/img/city.png") !important;
+    background-image: url("img/city.png") !important;
     background-color: gray !important;
     color: white;
   }
   .obstacle {
-    background-image: url("/img/obstacle.png") !important;
-  }
-  .heart {
-    background-image: url("/img/heart.png") !important;
-  }
-  .sword {
-    background-image: url("/img/sword.png") !important;
-  }
-  .gas {
-    background-image: url("/img/gas.png") !important;
-  }
-  .kit {
-    background-image: url("/img/kit.png") !important;
-  }
-  .armor {
-    background-image: url("/img/armor.png") !important;
+    background-image: url("img/obstacle.png") !important;
   }
   * {
     padding: 0px;
@@ -377,18 +367,6 @@
     font-size: 50px;
     color: white;
     text-decoration: none !important;
-  }
-  #pvp-self-info-max-health {
-    background-image: url(/img/heart.png);
-  }
-  #pvp-self-info-attack {
-    background-image: url(/img/sword.png);
-  }
-  #pvp-self-info-armor {
-    background-image: url(/img/armor.png);
-  }
-  #pvp-self-info-gas {
-    background-image: url(/img/gas.png);
   }
   #footer{
     display: none;
