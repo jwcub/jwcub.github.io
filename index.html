@@ -1,10 +1,31 @@
+<script src="https://upcdn.b0.upaiyun.com/libs/jquery/jquery-2.0.2.min.js"></script>
 <script src="https://cdn.bootcdn.net/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.all.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
-<link rel="stylesheet" href="fakegenals.css">
+<link rel="stylesheet" href="fake_checkmate.css">
 
 <div id="cover">
 </div>
 <div id="main">
+    <form id="options">
+        人数：
+        <select id="playercount">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8" selected>8</option>
+        </select><br>
+        地图：
+        <select id="map">
+            <option value="1" selected>随机地图</option>
+            <option value="2">迷宫地图</option>
+            <option value="3">空白地图</option>
+        </select><br>
+        <input type="button" value="生成" id="submit">
+    </form>
+
     <table id="m">
     </table>
     <div id="r">
@@ -29,4 +50,4 @@
         max-height: 30px;
     }
 </style>
-<script src="fakegenerals.js"></script>
+<script src="fake_checkmate.js"></script>
